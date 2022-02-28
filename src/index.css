@@ -6,18 +6,21 @@
 
 html {
   font-family: 'Text Me One', sans-serif;
+  scroll-behavior: smooth;
 }
 
 :root {
   --white: #ededed;
   --dark-purple: #2f2e41;
-  --very-light-brown: #F1DCAF;
+  --very-light-brown: #f2e0b9;
   --very-light-orange: #dfc062;
   --hero-number-primary: #b59b64;
   --hero-number-secondary: #bf9239;
-  --button-primary-from-gradient: #DBB54D;
-  --button-primary-to-gradient: #E4B033;
-
+  --button-primary-from-gradient: #dbb54d;
+  --button-primary-to-gradient: #e4b033;
+  --about-span: #d0aa5d;
+  --hobbies-from-gradient: #b79e4d;
+  --hobbies-to-gradient: #c48405;
 }
 
 .slide-left {

@@ -11,7 +11,7 @@ const Hero = () => {
         <h1 className='text-4xl xl:text-5xl'>
           Frontend Engineer & <br /> Web Lover
         </h1>
-        <p className='mt-4 text-gray-600 text-lg pr-20 xl:text-xl xl:mt-8'>
+        <p className='mt-4 text-gray-600 text-lg pr-20 xl:text-xl xl:mt-8 2xl:text-2xl'>
           I'm a tiny frontend dev who is exploring the daily innovations &
           trends of web development. I love my craft{' '}
         </p>

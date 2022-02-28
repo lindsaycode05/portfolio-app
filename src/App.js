@@ -1,11 +1,12 @@
 import React from 'react';
-import { Header,Hero } from './components/index';
+import { Header,Hero,About } from './components/index';
 
 const App = () => {
   return (
-    <div>
+    <div className='bg-primary-white'>
       <Header />
       <Hero />
+      <About/>
     </div>
   );
 };

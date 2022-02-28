@@ -31,7 +31,7 @@ const Header = () => {
             </a>
             <a
               href='#'
-              className='text-primary-white bg-dark-purple rounded flex justify-center px-1'
+              className='text-primary-white bg-dark-purple rounded flex justify-center'
               onClick={handleMenu}
             >
               Download Resume
