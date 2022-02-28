@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Text+Me+One&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: 'Text Me One', sans-serif;
+}
+
+:root {
+  --white: #ededed;
+  -dark-purple: #2f2e41;
+  --dark-brown: #96886e;
+  --light-brown: #d6b85a;
+  --orange: #de9503;
+}
