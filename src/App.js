@@ -1,10 +1,11 @@
 import React from 'react';
-import { Header } from './components/index';
+import { Header,Hero } from './components/index';
 
 const App = () => {
   return (
     <div>
       <Header />
+      <Hero />
     </div>
   );
 };

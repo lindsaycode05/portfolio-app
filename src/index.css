@@ -11,9 +11,13 @@ html {
 :root {
   --white: #ededed;
   --dark-purple: #2f2e41;
-  --dark-brown: #96886e;
-  --light-brown: #d6b85a;
-  --orange: #de9503;
+  --very-light-brown: #F1DCAF;
+  --very-light-orange: #dfc062;
+  --hero-number-primary: #b59b64;
+  --hero-number-secondary: #bf9239;
+  --button-primary-from-gradient: #DBB54D;
+  --button-primary-to-gradient: #E4B033;
+
 }
 
 .slide-left {
