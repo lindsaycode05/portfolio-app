@@ -36,3 +36,113 @@ html {
     transform: translateX(-15px);
   }
 }
+
+.rtl {
+  grid-column: -5/-3;
+}
+
+.jest {
+  grid-column: -3/-1;
+}
+
+.google {
+  grid-column: 4/5;
+}
+
+.git {
+  grid-column: 1/2;
+}
+
+.npm {
+  grid-column: 2/4;
+}
+
+.transition {
+  transition: 0.4s;
+}
+
+.css:hover {
+  filter: brightness(0) saturate(100%) invert(69%) sepia(39%) saturate(4950%)
+    hue-rotate(172deg) brightness(88%) contrast(89%);
+}
+
+.sass:hover {
+  filter: brightness(0) saturate(100%) invert(54%) sepia(22%) saturate(1059%)
+    hue-rotate(278deg) brightness(89%) contrast(90%);
+}
+
+.tailwind:hover {
+  filter: brightness(0) saturate(100%) invert(61%) sepia(98%) saturate(895%)
+    hue-rotate(168deg) brightness(95%) contrast(105%);
+}
+
+.mui:hover {
+  filter: brightness(0) saturate(100%) invert(31%) sepia(87%) saturate(2024%)
+    hue-rotate(196deg) brightness(100%) contrast(112%);
+}
+
+.antD:hover {
+  filter: brightness(0) saturate(100%) invert(46%) sepia(50%) saturate(5172%)
+    hue-rotate(328deg) brightness(101%) contrast(93%);
+}
+
+.chakra:hover {
+  filter: brightness(0) saturate(100%) invert(75%) sepia(53%) saturate(335%)
+    hue-rotate(131deg) brightness(87%) contrast(91%);
+}
+
+.react:hover {
+  filter: brightness(0) saturate(100%) invert(72%) sepia(94%) saturate(1290%)
+    hue-rotate(168deg) brightness(106%) contrast(102%);
+}
+
+.redux:hover {
+  filter: brightness(0) saturate(100%) invert(35%) sepia(8%) saturate(6579%)
+    hue-rotate(228deg) brightness(95%) contrast(95%);
+}
+
+.js:hover {
+  filter: brightness(0) saturate(100%) invert(84%) sepia(81%) saturate(3484%)
+    hue-rotate(341deg) brightness(100%) contrast(94%);
+}
+
+.ts:hover {
+  filter: brightness(0) saturate(100%) invert(41%) sepia(43%) saturate(1231%)
+    hue-rotate(175deg) brightness(93%) contrast(85%);
+}
+
+.git:hover {
+  filter: brightness(0) saturate(100%) invert(58%) sepia(75%) saturate(6041%)
+    hue-rotate(344deg) brightness(99%) contrast(90%);
+}
+
+.npm:hover {
+  filter: brightness(0) saturate(100%) invert(31%) sepia(76%) saturate(1610%)
+    hue-rotate(337deg) brightness(84%) contrast(91%);
+}
+
+.google:hover {
+  filter: brightness(0) saturate(100%) invert(78%) sepia(70%) saturate(3449%)
+    hue-rotate(5deg) brightness(104%) contrast(111%);
+}
+
+.rtl:hover {
+  filter: brightness(0) saturate(100%) invert(36%) sepia(24%) saturate(6700%)
+    hue-rotate(339deg) brightness(103%) contrast(95%);
+}
+
+.jest:hover {
+  filter: brightness(0) saturate(100%) invert(30%) sepia(68%) saturate(531%)
+    hue-rotate(292deg) brightness(91%) contrast(86%);
+}
+
+@media only screen and (min-width: 1024px) {
+  .functionality {
+    height: 240px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .functionality {
+    height: 284px;
+  }
+}
