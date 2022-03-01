@@ -21,6 +21,9 @@ html {
   --about-span: #d0aa5d;
   --hobbies-from-gradient: #b79e4d;
   --hobbies-to-gradient: #c48405;
+  --triphop-color: #87b287;
+  --button-secondary-from-gradient: #fcd15a;
+  --button-secondary-to-gradient: #dfb355;
 }
 
 .slide-left {

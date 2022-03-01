@@ -1,13 +1,14 @@
 import React from 'react';
-import { Header,Hero,About,TechStack } from './components/index';
+import { Header, Hero, About, TechStack, TripHop } from './components/index';
 
 const App = () => {
   return (
     <div className='bg-primary-white overflow-x-hidden'>
       <Header />
       <Hero />
-      <About/>
-      <TechStack/>
+      <About />
+      <TechStack />
+      <TripHop />
     </div>
   );
 };
