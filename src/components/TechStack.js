@@ -54,7 +54,6 @@ const TechStack = () => {
       </div>
       <div className='grid md:grid-cols-3 mt-16 lg:mt-28 gap-10 place-items-center'>
         <div>
-          {/* <div className='absolute w-0.5 h-52 bg-primary-white top-0 right-0 rounded-sm'></div> */}
           <h2 className='text-lg lg:text-2xl lg:mb-14  xl:text-4xl'>Styling</h2>
           <div className='grid grid-cols-3 place-items-center mt-4'>
             <a
@@ -135,7 +134,6 @@ const TechStack = () => {
           </div>
         </div>
         <div className='functionality'>
-          {/* <div className='absolute w-0.5 h-52 bg-primary-white -top-4 -right-10 rounded-sm'></div> */}
           <h2 className='text-lg lg:text-2xl lg:mb-14 xl:text-4xl'>
             Functionality
           </h2>
@@ -229,7 +227,7 @@ const TechStack = () => {
                 src={google}
                 alt='technology'
                 className='google w-14 xl:w-20 transition hover:scale-90'
-                title='Google'
+                title='Googling'
               />
             </a>
             <a

@@ -23,6 +23,7 @@ module.exports = {
         'button-secondary-to-gradient': 'var(--button-secondary-to-gradient)',
         'everlance-color': 'var(--everlance-color)',
         'quublyy-color': 'var(--quublyy-color)',
+        'light-purple': 'var(--light-purple)',
       },
     },
   },

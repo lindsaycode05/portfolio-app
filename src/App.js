@@ -6,7 +6,8 @@ import {
   TechStack,
   TripHop,
   Everlance,
-  Quublyy
+  Quublyy,
+  Footer,
 } from './components/index';
 
 const App = () => {
@@ -19,8 +20,9 @@ const App = () => {
       <div className='bg-gradient-to-tr from-very-light-brown to-very-light-orange'>
         <TripHop />
         <Everlance />
-        <Quublyy/>
+        <Quublyy />
       </div>
+      <Footer />
     </div>
   );
 };
