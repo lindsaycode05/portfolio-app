@@ -24,8 +24,9 @@ const Footer = () => {
             name='contact'
             netlify
             className='flex flex-col gap-4'
+            onSubmit='submit'
           >
-            <input type='hidden' name='contact' value='contact' />
+            <input type='hidden' name='form-name' value='contact' />
             <input
               type='text'
               name='name'
