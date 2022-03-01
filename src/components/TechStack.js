@@ -19,14 +19,42 @@ import vscode from '../images/vscode.png';
 
 const TechStack = () => {
   return (
-    <div className='bg-dark-purple pt-14 lg:pt-24 pb-12 text-primary-white px-6 text-center xl:pb-16'>
+    <div className='bg-dark-purple pt-14 lg:pt-24 pb-12 text-primary-white px-6 text-center xl:pb-24 relative'>
+      <a
+        href='https://www.figma.com/'
+        target='_blank'
+        rel='noopener noreferrer'
+      >
+        {' '}
+        <img
+          src={figma}
+          alt='figma'
+          className='absolute bottom-3 hidden xl:block w-16 -left-4 figma transition hover:scale-90'
+          title='Figma'
+        />
+      </a>
+
+      <a
+        href='https://code.visualstudio.com/'
+        target='_blank'
+        rel='noopener noreferrer'
+      >
+        {' '}
+        <img
+          src={vscode}
+          alt='vscode'
+          className='absolute top-10 -right-5 rotate-12 hidden xl:block w-20 transition vscode hover:scale-90'
+          title='Visual Studio Code'
+        />
+      </a>
+
       <div className='relative'>
         <h2 className='text-3xl lg:text-5xl'>My Tech Stack</h2>
         <div className='absolute w-24 h-0.5 bg-primary-white left-1/2 -translate-x-1/2 -translate-y-1/2 top-16 xl:top-20 rounded-sm'></div>
       </div>
       <div className='grid md:grid-cols-3 mt-16 lg:mt-28 gap-10 place-items-center'>
         <div>
-          {/* <div className='absolute w-0.5 h-52 bg-primary-white top-0 -right-10 rounded-sm'></div> */}
+          {/* <div className='absolute w-0.5 h-52 bg-primary-white top-0 right-0 rounded-sm'></div> */}
           <h2 className='text-lg lg:text-2xl lg:mb-14  xl:text-4xl'>Styling</h2>
           <div className='grid grid-cols-3 place-items-center mt-4'>
             <a
