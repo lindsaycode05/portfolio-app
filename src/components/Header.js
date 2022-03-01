@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import blackLogo from '../images/black-logo.png';
 import { HiMenu } from 'react-icons/hi';
+import { FiGithub } from 'react-icons/fi';
+import { RiLinkedinLine } from 'react-icons/ri';
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -29,22 +31,53 @@ const Header = () => {
             <a href='#contact' onClick={handleMenu}>
               Contact
             </a>
-            <a
-              href='#'
-              className='text-primary-white bg-dark-purple rounded flex justify-center'
-              onClick={handleMenu}
-            >
-              Download Resume
-            </a>
+            <div className='flex gap-4'>
+              {' '}
+              <a
+                href='https://www.github.com/dragoshcode'
+                target='_blank'
+                rel='noopener noreferrer'
+                onClick={handleMenu}
+              >
+                <FiGithub />
+              </a>
+              <a
+                href='https://www.linkedin.com/in/dragoshcode'
+                target='_blank'
+                rel='noopener noreferrer'
+                onClick={handleMenu}
+              >
+                <RiLinkedinLine />
+              </a>
+            </div>
           </div>
         )}
       </div>
       <div className='md:flex gap-7 font-sofia hidden'>
-        <a href='#about' className='hover:opacity-70 transition-opacity'>About</a>
-        <a href='#projects' className='hover:opacity-70 transition-opacity'>Projects</a>
-        <a href='#contact' className='hover:opacity-70 transition-opacity'>Contact</a>
-        <a href='#' className='text-primary-white bg-dark-purple rounded px-5 hover:opacity-70 transition-opacity'>
-          Download Resume
+        <a href='#about' className='hover:opacity-70 transition-opacity'>
+          About
+        </a>
+        <a href='#projects' className='hover:opacity-70 transition-opacity'>
+          Projects
+        </a>
+        <a href='#contact' className='hover:opacity-70 transition-opacity'>
+          Contact
+        </a>
+        <a
+          href='https://www.github.com/dragoshcode'
+          target='_blank'
+          rel='noopener noreferrer'
+          className='hover:opacity-70 transition-opacity mt-1'
+        >
+          <FiGithub />
+        </a>
+        <a
+          href='https://www.linkedin.com/in/dragoshcode'
+          target='_blank'
+          rel='noopener noreferrer'
+          className='hover:opacity-70 transition-opacity mt-1'
+        >
+          <RiLinkedinLine />
         </a>
       </div>
     </div>
