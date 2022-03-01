@@ -1,51 +1,53 @@
 import React from 'react';
-import triphop from '../images/triphop.png';
+import everlance from '../images/everlance.png';
 import { FiGithub } from 'react-icons/fi';
 
-const TripHop = () => {
+const Everlance = () => {
   return (
-    <div id='projects' className='pt-14 lg:pt-24 pb-12 px-6 text-left xl:pb-24 relative'>
-      <div className='relative text-3xl lg:text-5xl'>
-        <h2 className='text-dark-purple text-3xl lg:text-5xl text-center'>
-          My Projects
-        </h2>
-        <div className='absolute w-24 h-0.5 bg-dark-purple left-1/2 -translate-x-1/2 -translate-y-1/2 top-16 xl:top-20 rounded-sm'></div>
-      </div>
+    <div className='pt-0.5 pb-12 px-6 text-left xl:pb-24 relative'>
       <div className='grid lg:grid-cols-2 lg:gap-8 xl:gap-12 place-items-center mt-20 lg:mt-32'>
-        <div className=''>
-          <img src={triphop} alt='triphop project' />
+        <div className='lg:order-2'>
+          <img src={everlance} alt='everlance project' />
         </div>
-        <div className='flex flex-col mt-8 sm:mt-12 lg:mt-0'>
-          <p className='text-lg'>Travel Companion</p>
-          <h3 className='text-2xl md:text-3xl bg-primary-white text-triphop-color inline-block w-max py-0.5 px-4 rounded-sm mt-0.5'>
-            TripHop
+        <div className='flex flex-col mt-8 sm:mt-12 lg:mt-0 lg:order-1'>
+          <p className='text-lg'>Expense Tracker</p>
+          <h3 className='text-2xl md:text-3xl bg-primary-white text-everlance-color inline-block w-max py-0.5 px-4 rounded-sm mt-0.5'>
+            Everlance
           </h3>
           <p className='mt-3 text-lg'>
-            A simple travel companion app which shows the interesting places
-            around. TripHop is an app which you can use to see
-            what Hotels, Restaurants or simply Attractions are in any spot of
-            the world.
+            We live in a time where taking count of our earnings is crucial.
+            Don't worry, we got you, Everlance is your daily expense tracker.
+            With Everlance you can handle your expenses at the next level
           </p>
           <div className='flex flex-wrap max-w-xl gap-5 mt-6'>
             <p className='bg-primary-white rounded-full flex justify-center items-center w-max py-0.5 px-5'>
               React.js
             </p>
             <p className='bg-primary-white rounded-full flex justify-center items-center w-max py-0.5 px-5'>
-              MaterialUI
+              Redux
             </p>
             <p className='bg-primary-white rounded-full flex justify-center items-center w-max py-0.5 px-5'>
-              Google Maps API
+              React Router
             </p>
             <p className='bg-primary-white rounded-full flex justify-center items-center w-max py-0.5 px-5'>
-              Trip Advisor API
+              Tailwind
             </p>
             <p className='bg-primary-white rounded-full flex justify-center items-center w-max py-0.5 px-5'>
-              Open Weather Map API
+              Local Storage
+            </p>
+            <p className='bg-gray-300 rounded-full flex justify-center items-center w-max py-0.5 px-5'>
+              MomentJS
+            </p>
+            <p className='bg-gray-300 rounded-full flex justify-center items-center w-max py-0.5 px-5'>
+              HeadlessUI
+            </p>
+            <p className='bg-gray-300 rounded-full flex justify-center items-center w-max py-0.5 px-5'>
+              ToastifyJS
             </p>
           </div>
           <div className='flex flex-col gap-6 mt-7'>
             <a
-              href='https://triphop-location-finder.netlify.app'
+              href='https://everlance-expense-tracker.netlify.app'
               target='_blank'
               rel='noopener noreferrer'
               className='bg-gradient-to-r from-button-secondary-from-gradient to-button-secondary-to-gradient w-max rounded-sm py-2 px-6 hover:opacity-60 transition-opacity'
@@ -53,7 +55,7 @@ const TripHop = () => {
               Watch it in action 🎯
             </a>
             <a
-              href='https://github.com/dragoshcode/triphop-locations-finder-app'
+              href='https://github.com/dragoshcode/everlance-expense-tracker'
               target='_blank'
               rel='noopener noreferrer'
               className='bg-gradient-to-r from-button-secondary-from-gradient to-button-secondary-to-gradient w-max rounded-sm py-2 px-6 flex items-center gap-2 hover:opacity-60 transition-opacity'
@@ -67,4 +69,4 @@ const TripHop = () => {
   );
 };
 
-export default TripHop;
+export default Everlance;

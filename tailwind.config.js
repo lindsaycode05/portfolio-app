@@ -18,8 +18,11 @@ module.exports = {
         'hobbies-from-gradient': 'var(--hobbies-from-gradient)',
         'hobbies-to-gradient': 'var(--hobbies-to-gradient)',
         'triphop-color': 'var(--triphop-color)',
-        'button-secondary-from-gradient': 'var(--button-secondary-from-gradient)',
+        'button-secondary-from-gradient':
+          'var(--button-secondary-from-gradient)',
         'button-secondary-to-gradient': 'var(--button-secondary-to-gradient)',
+        'everlance-color': 'var(--everlance-color)',
+        'quublyy-color': 'var(--quublyy-color)',
       },
     },
   },

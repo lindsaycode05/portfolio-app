@@ -1,5 +1,13 @@
 import React from 'react';
-import { Header, Hero, About, TechStack, TripHop } from './components/index';
+import {
+  Header,
+  Hero,
+  About,
+  TechStack,
+  TripHop,
+  Everlance,
+  Quublyy
+} from './components/index';
 
 const App = () => {
   return (
@@ -8,7 +16,11 @@ const App = () => {
       <Hero />
       <About />
       <TechStack />
-      <TripHop />
+      <div className='bg-gradient-to-tr from-very-light-brown to-very-light-orange'>
+        <TripHop />
+        <Everlance />
+        <Quublyy/>
+      </div>
     </div>
   );
 };
