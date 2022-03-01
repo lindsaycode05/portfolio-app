@@ -40,10 +40,10 @@ const Header = () => {
         )}
       </div>
       <div className='md:flex gap-7 font-sofia hidden'>
-        <a href='#about'>About</a>
-        <a href='#projects'>Projects</a>
-        <a href='#contact'>Contact</a>
-        <a href='#' className='text-primary-white bg-dark-purple rounded px-5'>
+        <a href='#about' className='hover:opacity-70 transition-opacity'>About</a>
+        <a href='#projects' className='hover:opacity-70 transition-opacity'>Projects</a>
+        <a href='#contact' className='hover:opacity-70 transition-opacity'>Contact</a>
+        <a href='#' className='text-primary-white bg-dark-purple rounded px-5 hover:opacity-70 transition-opacity'>
           Download Resume
         </a>
       </div>

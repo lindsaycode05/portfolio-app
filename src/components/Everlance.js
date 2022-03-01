@@ -9,12 +9,12 @@ const Everlance = () => {
         <div className='lg:order-2'>
           <img src={everlance} alt='everlance project' />
         </div>
-        <div className='flex flex-col mt-8 sm:mt-12 lg:mt-0 lg:order-1'>
+        <div className='flex flex-col mt-8 sm:mt-12 lg:mt-0 lg:order-1 lg:pl-4'>
           <p className='text-lg'>Expense Tracker</p>
           <h3 className='text-2xl md:text-3xl bg-primary-white text-everlance-color inline-block w-max py-0.5 px-4 rounded-sm mt-0.5'>
             Everlance
           </h3>
-          <p className='mt-3 text-lg'>
+          <p className='mt-3 text-lg '>
             We live in a time where taking count of our earnings is crucial.
             Don't worry, we got you, Everlance is your daily expense tracker.
             With Everlance you can handle your expenses at the next level
