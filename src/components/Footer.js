@@ -20,12 +20,12 @@ const Footer = () => {
           <div className="absolute w-0.5 h-72 bg-primary-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-sm hidden xl:block"></div>
         <div className='md:order-2'>
           <form
-            action=''
             method='POST'
             name='contact'
-            data-netlify='true'
-            className='flex flex-col gap-4 '
+            netlify
+            className='flex flex-col gap-4'
           >
+            <input type="hidden" name="contact" value="contact" />
             <input
               type='text'
               name='name'
