@@ -17,15 +17,15 @@ const Footer = () => {
         Feel free to message or email me. <br /> I am excited to hear from you.
       </p>
       <div className='grid md:grid-cols-2 mt-10 md:place-items-center md:gap-12 xl:gap-52 xl:mt-28 2xl:gap-64 relative'>
-          <div className="absolute w-0.5 h-72 bg-primary-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-sm hidden xl:block"></div>
+        <div className='absolute w-0.5 h-72 bg-primary-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-sm hidden xl:block'></div>
         <div className='md:order-2'>
           <form
-            method='POST'
+            method='post'
             name='contact'
             netlify
             className='flex flex-col gap-4'
           >
-            <input type="hidden" name="contact" value="contact" />
+            <input type='hidden' name='contact' value='contact' />
             <input
               type='text'
               name='name'
