@@ -1,6 +1,7 @@
 import React from 'react';
 import gmail from '../images/gmail.png';
 import linkedin from '../images/in.png';
+import github from '../images/github.png';
 import whiteLogo from '../images/white-logo.png';
 
 const Footer = () => {
@@ -58,7 +59,7 @@ const Footer = () => {
             </button>
           </form>
         </div>
-        <div className='flex flex-col md:flex-row md:items-center md:order-1 mt-24 md:mt-0 gap-10'>
+        <div className='flex flex-col flex-wrap md:flex-row justify-center items-center md:order-1 mt-24 md:mt-0 gap-10'>
           <div className='flex flex-col items-center'>
             <img src={linkedin} alt='linkedin' className='w-12' />
             <a
@@ -73,6 +74,17 @@ const Footer = () => {
           <div className='flex flex-col items-center gap-1 lg:mt-2'>
             <img src={gmail} alt='gmail' className='w-12' />
             <p>dragoshcode@gmail.com</p>
+          </div>
+          <div className='flex flex-col items-center gap-1'>
+            <img src={github} alt='linkedin' className='w-12' />
+            <a
+              href='https://www.github.com/dragoshcode'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='underline'
+            >
+              dragoshcode
+            </a>
           </div>
         </div>
       </div>
